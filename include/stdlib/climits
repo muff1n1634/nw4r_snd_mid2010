@@ -1,0 +1,9 @@
+#ifndef __STDCXX_CLIMITS__
+#define __STDCXX_CLIMITS__
+
+#define CHAR_BIT 8
+
+#define INT_MAX	2147483647
+#define LONG_MAX 2147483647
+
+#endif // __STDCXX_CLIMITS__
