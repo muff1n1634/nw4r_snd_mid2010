@@ -11,8 +11,6 @@
  * classes and functions
  */
 
-namespace nw4r { namespace snd { namespace detail { class Channel; }}}
-
 namespace nw4r { namespace snd { namespace detail
 {
 	class MidiSeqPlayer : public SeqPlayer

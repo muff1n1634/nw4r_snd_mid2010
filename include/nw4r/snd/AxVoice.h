@@ -24,9 +24,6 @@
  * classes and functions
  */
 
-// forward declarations
-namespace nw4r { namespace snd { namespace detail { class AxVoiceManager; }}}
-
 namespace nw4r { namespace snd { namespace detail
 {
 	// [R89JEL]:/bin/RVL/Debug/mainD.elf:.debug::0x2ae88

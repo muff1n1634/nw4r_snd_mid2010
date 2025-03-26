@@ -19,8 +19,18 @@
 #include "nw4r/snd/MoveValue.h"
 
 #include "nw4r/ut/RuntimeTypeInfo.h"
+#include "nw4r/ut/LinkList.h"
 
 #include "nw4r/NW4RAssert.hpp"
+
+/*******************************************************************************
+ * types
+ */
+
+// forward declarations
+namespace nw4r { namespace snd { namespace detail { class StrmBufferPool; }}}
+
+namespace nw4r { namespace ut { class FileStream; }}
 
 /*******************************************************************************
  * variables

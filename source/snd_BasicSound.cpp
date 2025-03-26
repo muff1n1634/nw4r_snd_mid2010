@@ -27,6 +27,13 @@
 #include "nw4r/NW4RAssert.hpp"
 
 /*******************************************************************************
+ * types
+ */
+
+// forward declarations
+namespace nw4r { namespace snd { namespace detail { class PlayerHeap; }}}
+
+/*******************************************************************************
  * variables
  */
 

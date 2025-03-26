@@ -45,6 +45,7 @@
 
 #include "nw4r/ut/FileStream.h"
 #include "nw4r/ut/inlines.h"
+#include "nw4r/ut/LinkList.h"
 
 #include "nw4r/NW4RAssert.hpp"
 
