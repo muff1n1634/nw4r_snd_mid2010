@@ -10,7 +10,6 @@
 #include "SoundArchive.h"
 
 #include "../ut/FileStream.h"
-#include "../ut/RuntimeTypeInfo.h"
 
 /*******************************************************************************
  * classes and functions

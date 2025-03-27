@@ -17,6 +17,7 @@
 #include "nw4r/snd/WsdPlayer.h"
 
 #include "nw4r/ut/RuntimeTypeInfo.h"
+#include "nw4r/ut/LinkList.h"
 
 #include "nw4r/NW4RAssert.hpp"
 

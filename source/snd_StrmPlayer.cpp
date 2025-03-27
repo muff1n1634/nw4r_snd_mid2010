@@ -13,24 +13,24 @@
 #include <cstring> // std::memcpy
 
 #include <decomp.h>
-#include <macros.h>
 #include <types.h>
 
 #include "nw4r/snd/AxVoice.h"
-#include "nw4r/snd/Voice.h"
-#include "nw4r/snd/global.h"
-#include "nw4r/snd/TaskManager.h"
-#include "nw4r/snd/VoiceManager.h"
-#include "nw4r/snd/WaveFile.h"
 #include "nw4r/snd/BasicPlayer.h"
+#include "nw4r/snd/global.h"
+#include "nw4r/snd/InstancePool.h"
 #include "nw4r/snd/SoundThread.h"
 #include "nw4r/snd/StrmChannel.h"
 #include "nw4r/snd/StrmFile.h"
+#include "nw4r/snd/TaskManager.h"
+#include "nw4r/snd/Voice.h"
+#include "nw4r/snd/VoiceManager.h"
+#include "nw4r/snd/WaveFile.h"
 
+#include "nw4r/ut/DvdFileStream.h"
 #include "nw4r/ut/FileStream.h"
 #include "nw4r/ut/inlines.h"
 #include "nw4r/ut/lock.h"
-#include "nw4r/ut/DvdFileStream.h"
 #include "nw4r/ut/RuntimeTypeInfo.h"
 
 #if 0

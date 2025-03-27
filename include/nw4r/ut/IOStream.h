@@ -5,14 +5,14 @@
  * headers
  */
 
-#include <macros.h>
 #include <types.h>
-
-#include "RuntimeTypeInfo.h"
 
 /*******************************************************************************
  * classes
  */
+
+// forward declarations
+namespace nw4r { namespace ut { namespace detail { class RuntimeTypeInfo; }}}
 
 namespace nw4r { namespace ut
 {

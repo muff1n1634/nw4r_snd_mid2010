@@ -11,9 +11,8 @@
 
 #include <types.h>
 
-#include "nw4r/snd/MmlParser.h"
+#include "nw4r/snd/InstancePool.h"
 #include "nw4r/snd/MmlSeqTrack.h"
-#include "nw4r/snd/SeqPlayer.h"
 #include "nw4r/snd/SeqTrack.h"
 
 #include <nw4r/NW4RAssert.hpp>

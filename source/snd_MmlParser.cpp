@@ -31,13 +31,20 @@
 #include "nw4r/NW4RAssert.hpp"
 
 /*******************************************************************************
+ * types
+ */
+
+// forward declarations
+namespace nw4r { namespace snd { namespace detail { class Channel; }}}
+
+/*******************************************************************************
  * variables
  */
 
 namespace nw4r { namespace snd { namespace detail
 {
 	// .sbss
-	bool MmlParser::mPrintVarEnabledFlag = false;
+	bool MmlParser::mPrintVarEnabledFlag;
 }}} // namespace nw4r::snd::detail
 
 /*******************************************************************************

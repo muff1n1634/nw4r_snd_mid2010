@@ -17,9 +17,14 @@
 #include "nw4r/snd/BasicSound.h"
 #include "nw4r/snd/SoundThread.h"
 
-#include "nw4r/ut/LinkList.h"
-
 #include "nw4r/NW4RAssert.hpp"
+
+/*******************************************************************************
+ * types
+ */
+
+// forward declarations
+namespace nw4r { namespace ut { struct LinkListNode; }}
 
 /*******************************************************************************
  * functions

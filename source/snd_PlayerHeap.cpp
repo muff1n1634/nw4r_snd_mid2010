@@ -4,6 +4,8 @@
  * headers
  */
 
+#include <cstddef> // NULL
+
 #include <types.h>
 
 #include "nw4r/snd/DisposeCallbackManager.h"
@@ -12,6 +14,13 @@
 #include "nw4r/ut/inlines.h"
 
 #include "nw4r/NW4RAssert.hpp"
+
+/*******************************************************************************
+ * types
+ */
+
+// forward declarations
+namespace nw4r { namespace snd { namespace detail { class BasicSound; }}}
 
 /*******************************************************************************
  * functions
