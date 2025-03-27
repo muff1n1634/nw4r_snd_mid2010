@@ -1,0 +1,9 @@
+#ifndef __STDCXX_CSTDINT__
+#define __STDCXX_CSTDINT__
+
+namespace std
+{
+	typedef signed long intptr_t;
+} // namespace std
+
+#endif // __STDCXX_CSTDINT__

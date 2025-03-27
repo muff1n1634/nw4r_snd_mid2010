@@ -1,0 +1,23 @@
+#ifndef __STDCXX_CMATH__
+#define __STDCXX_CMATH__
+
+namespace std
+{
+	extern "C"
+	{
+		extern double log10(double x) __attribute__((nothrow));
+
+		extern float log10f(float x) __attribute__((nothrow));
+		inline float log10f(float x) __attribute__((nothrow))
+		{
+			return static_cast<float>((::std::log10)(static_cast<double>(x)));
+		}
+	} // extern "C"
+
+	inline float log10(float x) __attribute__((nothrow))
+	{
+		return (::std::log10f)(x);
+	}
+} // namespace std
+
+#endif // __STDCXX_CMATH__
