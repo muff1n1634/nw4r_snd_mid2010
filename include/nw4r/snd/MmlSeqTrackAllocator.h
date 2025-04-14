@@ -8,14 +8,15 @@
 #include <types.h>
 
 #include "InstancePool.h"
-#include "MmlParser.h"
-#include "SeqPlayer.h"
-#include "SeqTrack.h"
 #include "SeqTrackAllocator.h"
 
 /*******************************************************************************
  * classes and functions
  */
+
+// forward declarations
+namespace nw4r { namespace snd { namespace detail { class MmlParser; }}}
+namespace nw4r { namespace snd { namespace detail { class MmlSeqTrack; }}}
 
 namespace nw4r { namespace snd { namespace detail
 {

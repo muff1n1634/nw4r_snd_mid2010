@@ -5,14 +5,14 @@
  * headers
  */
 
-#include <types.h>
-
 #include "FileStream.h"
-#include "RuntimeTypeInfo.h"
 
 /*******************************************************************************
  * classes and functions
  */
+
+// forward declarations
+namespace nw4r { namespace ut { namespace detail { class RuntimeTypeInfo; }}}
 
 namespace nw4r { namespace ut
 {
@@ -28,6 +28,7 @@ namespace nw4r { namespace ut
 
 	public:
 		static const detail::RuntimeTypeInfo typeInfo;
+
 	private:
 		long mPriority;
 	};

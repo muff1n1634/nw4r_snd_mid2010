@@ -99,12 +99,10 @@ namespace nw4r { namespace ut
 		// [SPQE7T]/ISpyD.elf:.debug_info::0x113f12
 		class LinkListImpl : private NonCopyable
 		{
-		// forward declarations
-		public:
-			class ConstIterator;
-
 		// nested classes
 		public:
+			class ConstIterator; // IWYU pragma: keep (necessary for mwcc)
+
 			// [SPQE7T]/ISpyD.elf:.debug_info::0x3624af
 			class Iterator : public dummy::Iterator // what does this base do?
 			{

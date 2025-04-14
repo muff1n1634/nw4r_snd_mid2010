@@ -21,6 +21,7 @@
 #include "nw4r/snd/TaskManager.h"
 
 #include "nw4r/ut/FileStream.h"
+#include "nw4r/ut/LinkList.h"
 #include "nw4r/ut/RuntimeTypeInfo.h"
 
 #if 0
