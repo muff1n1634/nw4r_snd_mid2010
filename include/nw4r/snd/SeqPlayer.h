@@ -158,7 +158,7 @@ namespace nw4r { namespace snd { namespace detail
 		void CloseTrack(int trackNo);
 		void FinishPlayer();
 
-		BOOL ParseNextTick(bool doNoteOn); // meant to be bool?
+		int ParseNextTick(bool doNoteOn); // meant to be bool?
 		void UpdateTick(int msec);
 		void SkipTick();
 
