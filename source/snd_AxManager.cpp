@@ -99,7 +99,7 @@ AxManager &AxManager::GetInstance()
 
 #pragma push
 
-#pragma opt_propagation off // somehow this got turned off???
+#pragma ppc_iro_level 0 // somehow this got turned off???
 
 void AxManager::Init()
 {
