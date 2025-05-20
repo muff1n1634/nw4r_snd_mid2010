@@ -9,15 +9,13 @@
 #include <types.h>
 
 #include "Util.h"
+#include "WaveFile.h"
 
 #include "../ut/binaryFileFormat.h"
 
 /*******************************************************************************
  * types
  */
-
-// forward declarations
-namespace nw4r { namespace snd { namespace detail { namespace WaveFile { struct FileHeader; }}}}
 
 namespace nw4r { namespace snd { namespace detail
 {
