@@ -1,0 +1,6 @@
+#ifndef __STDCXX_CSTDDEF__
+#define __STDCXX_CSTDDEF__
+
+#include <__internal/NULL.hpp>
+
+#endif // __STDCXX_CSTDDEF__
